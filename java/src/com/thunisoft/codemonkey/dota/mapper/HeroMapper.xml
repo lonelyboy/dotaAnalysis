@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.thunisoft.codemonkey.dota.mapper.HeroMapper">  
+    <select id="selectall"  resultType="hashMap">  
+        select * from T_HEROS 
+    </select>  
+      
+    
+</mapper>  
