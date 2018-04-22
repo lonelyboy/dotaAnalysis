@@ -5,6 +5,10 @@
 	<artifactId>dota_analyze</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	 <properties>
+	  <spring.version>4.2.6.RELEASE</spring.version>
+	 
+	 </properties>
 	<dependencies>
 		<dependency>
 			<groupId>spring-mvc-mybatise-base</groupId>
@@ -16,6 +20,12 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.5.4</version>
 		</dependency>
+		 <dependency>  
+            <groupId>com.alibaba</groupId>  
+            <artifactId>druid</artifactId>  
+            <version>1.0.7</version>  
+        </dependency>  
+		
         <!-- spring redis 集成 -->
          <dependency>  
             <groupId>redis.clients</groupId>  
