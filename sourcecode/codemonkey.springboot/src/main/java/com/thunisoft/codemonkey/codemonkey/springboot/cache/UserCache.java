@@ -26,5 +26,5 @@ public class UserCache {
 
     public void putString(String key, String value) {
         stringRedisTemplate.opsForValue().set(key, value);
-    }
+	}
 }
